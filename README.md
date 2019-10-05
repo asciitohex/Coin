@@ -9,7 +9,7 @@ Dla kogo jest przeznaczony QubitCoin?  Przede wszystkim dla ludzi, którzy potrz
 QubitCoin  będzie działał dopóki będzie chęć używania blockchaina przez użytkowników, a twoje dane będą tam bezpieczne i zawsze dostępne nie zależnie od pory dnia. QubitCoin jest także otwarty dla wszystkich, którzy potrzebują zapisywać swoje prace w miejsca z którego mają zawsze dostęp, a nie chcą przekazywać ich poprzez e-mail, chcą zachować prywatność. 
 Kod jest pisany w PHP z połączeniem z relacyjną bazą danych sqllite, całkowicie z centralizowaną. Całość ma działać na serwerach obsługujących środowisko PHP i sqllite. Raz dodane załączniki zostają na zawsze na blockchainie QubitCoin i nie można już ich usunąć. Daje to sporo możliwości choćby takich jak dodawanie plików licencyjnych z dokładną datą dodania w celu odtworzenia dnia dodania.
 
-Na obecną chwilę zaimplementowano Proof of Work trwają prace nad Proof of Stake.
+Na obecną chwilę zaimplementowano Proof of Work (PoW) trwają prace nad Proof of Stake (PoS).
 
 Do poprawnego działania potrzebna jest zaimplementowana biblioteka php_mcrypt.dll na serwerze.
 
