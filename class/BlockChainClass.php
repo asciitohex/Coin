@@ -9,7 +9,7 @@ include_once ("./class/AlgoHashClass.php");
 
 class BlockChain{
 	
-	/*
+	/**
 	tablica blokow
 	*/
 	private $chain = array();
