@@ -97,7 +97,7 @@ class BlockChain{
 	}
 	
 	/**
-	   Proof of State
+	   Proof of Stake
        implementation	   
 	*/
 	public function minePendingTransactionState($miningRewardAdres){
