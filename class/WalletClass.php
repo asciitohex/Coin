@@ -63,8 +63,9 @@ class Wallet{
             $this->getUserAcontCount();
 	  
 	   // zapobieganie wprowadzenia tego samego konta do bazy
+           // Dopracować nie działa właściwie sprawdzić czy nie istnieje w bazie.
 	   
-		if($this->userAcont === 0 || $this->userAcont === null){
+		if($this->userAcont == 0 || $this->userAcont == null){
 	   
               $stmt1 = $this->db1->prepare("INSERT INTO `useracont` (idUser, privateSeed, adresWallet, seedWallet) VALUES (:idUser, :privateSeed, :adresWallet, :seedWallet)");
     		  $stmt1->bindValue(':idUser', count($this->userAcontCount)+1, SQLITE3_INTEGER);
@@ -75,17 +76,18 @@ class Wallet{
           } 
 	}
 	
-	public function setAdresWallet($seed){
-	
+	public function setAdresWallet($seed)
+	{	
 	$this->adresWalet = $this->algoHash->HashCC($seed); 
 	}
 	
-	public function getAdresWallet(){
-	
+	public function getAdresWallet()
+	{
 	  return $this->adresWalet;
 	}
 	
-	public function getPrivateSeed(){
+	public function getPrivateSeed()
+	{
 	// prywatny klucz
 	// zapisujemy go tylko na portfelu komputera
 	  return $this->privateSeed;
