@@ -1,1 +1,28 @@
+CubitQoin.db
+CREATE TABLE blockchaincoin (
+    id         INTEGER                               PRIMARY KEY
+                                                     NOT NULL
+                                                     UNIQUE
+                                                     CHECK (typeof("id") = 'integer'),
+    idChain    INTEGER                               UNIQUE
+                                                     CHECK (typeof("idChain") = 'integer'),
+    blockChain TEXT (1000000000000000000, 100000000) CHECK (typeof("blockChain") = 'text') 
+);
 
+
+WalletAcont.db
+
+CREATE TABLE useracont (
+    id          INTEGER NOT NULL
+                        UNIQUE
+                        CHECK (typeof("id") = 'integer'),
+    idUser      INTEGER CHECK (typeof("idUser") = 'integer') 
+                        UNIQUE
+                        NOT NULL,
+    privateSeed TEXT    CHECK (typeof("privateSeed") = 'text'),
+    adresWallet TEXT    CHECK (typeof("adresWalet") = 'text'),
+    seedWallet  TEXT,
+    PRIMARY KEY (
+        id
+    )
+);
