@@ -1,4 +1,7 @@
 <?php
+//*** License ***//
+//*** Attribution-NonCommercial 3.0 Poland (CC BY-NC 3.0 PL) ***//
+
 session_start();
 
 	include_once ("./class/BlockChainClass.php");
