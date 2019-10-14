@@ -1,4 +1,4 @@
-# Coin Blockchain PHP
+# Coin Blockchain PHP Alfa
 Creative Commons Uznanie autorstwa-Użycie niekomercyjne 3.0 Polska.
 
 
@@ -18,3 +18,19 @@ Na obecną chwilę zaimplementowano Proof of Work (PoW) trwają prace nad Proof 
 Do poprawnego działania potrzebna jest zaimplementowana biblioteka php_mcrypt.dll na serwerze.
 
 Możliwości działania można zobaczyć https://www.youtube.com/watch?v=mgZV0Mr6paM
+
+
+
+#EN Coin Blockchain PHP Alfa
+
+Het project is in ontwikkeling, vroege alfa en kan fouten bevatten.
+
+Voor wie is Coin? Allereerst voor mensen die hun gegevens moeten opslaan, zoals pdf, jpg, png, gif, doc, xml, txt-bijlagen en behoeften hebben die ze niet kwijt hoeven te raken. Heb je een herdenkingsfoto, bijvoorbeeld een huwelijk, een communie? Enz. Of u hebt enkele certificaten opgeslagen in PDF-formaat, sla op in blockchain en u kunt rustig slapen wanneer u toegang hebt tot mensen zoals u, sla uw bijlagen op in het Coin-netwerk. Datingbijlagen voordat ze blockchain SA versleuteld worden gemaakt en u ALLEEN de sleutel hebt om ze te decoderen, zelfs als iemand toegang krijgt om het blok op het eerste apparaat te maken, kunnen ze deze NIET ontcijferen Alle dankzij Coin-verstrengeling Alleen bent u verstrikt met uw bijlagen.
+De munt werkt wanneer gebruikers de blockchain willen gebruiken en uw gegevens zijn daar veilig en altijd beschikbaar, ongeacht het tijdstip van de dag. De munt staat ook open voor iedereen die zijn werk moet opslaan op plaatsen die altijd beschikbaar zijn, en je wilt ze niet per e-mail gebruiken, je wilt privacy genieten.
+De code is geschreven in PHP met verbinding met de relationele sqllite-gegevensfunctie, volledig gecentraliseerd. Het geheel moet worden uitgevoerd op een server die PHP en sqllite ondersteunt. Eens toegevoegde bijlagen voor altijd gebruikt na de Monet blockchain en kunnen niet meer worden verwijderd. Dit geeft u veel mogelijkheden, zoals het toevoegen van licentiebestanden met de exacte datum die is toegevoegd om gegevens van de toegevoegde datum te maken.
+
+Proof of Work (PoW) is momenteel geïmplementeerd en er wordt gewerkt aan Proof of Stake (PoS).
+
+Voor een goede werking hebt u de geïmplementeerde php_mcrypt.dll-bibliotheek op de server nodig.
+
+Actieopties zijn te zien https://www.youtube.com/watch?v=mgZV0Mr6paM
