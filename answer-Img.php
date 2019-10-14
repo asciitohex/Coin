@@ -51,7 +51,7 @@ session_start();
 		   <li><a href="sendCoin.php">Send Wyślij Kwotę</a></li>
 		   <li><a href="answerCoin.php">Answer Odbierz Kwotę</a></li>
 		    <li><a href="send-Img.php">Send Wyślij Img</a></li>
-		   <li><a href="logoutQubit.php">Logout</a></li>
+		   <li><a href="logoutCoin.php">Logout</a></li>
 		</ul>
 	  </nav>
   </div>
