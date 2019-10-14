@@ -17,7 +17,7 @@ session_start();
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="description" content="To jest test html5" />
 <meta name="keywords" content="html, html5" />
-<meta http-equiv='refresh' content='2; url=loginQubit.php'/>
+<meta http-equiv='refresh' content='2; url=loginCoin.php'/>
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="./w3css/styl.css">
    </head>
