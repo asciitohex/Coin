@@ -45,7 +45,7 @@ session_start();
 		   <li><a href="sendCoin.php">Send Wyślij Kwotę</a></li>
 		   <li><a href="send-Img.php">Send Wyślij IMG</a></li>
 		   <li><a href="answer-Img.php">Answer Odbierz IMG</a></li>
-		   <li><a href="logoutQubit.php">Logout</a></li>
+		   <li><a href="logoutCoin.php">Logout</a></li>
 		</ul>
 	  </nav>
   </div>
@@ -78,16 +78,15 @@ session_start();
 	     <p class='box'><?php echo $walletAdrres; ?></p>
 	     <p> QR Code </p> </div>
     </div>
-		<?php 
+<?php 
 	}else{
 	echo 'Login  adres';
 	}
-	?>
+?>
   </div>
   <footer id="footer"> 
  footer html 5 
 </footer>
-
 </div>
 </body>
 </html>
