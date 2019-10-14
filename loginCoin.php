@@ -78,7 +78,7 @@ session_start();
 		  <?php 
 		  }else{
 		  ?>
-		  <li><a href="logoutQubit.php">LogOut</a></li>
+		  <li><a href="logoutCoin.php">LogOut</a></li>
 		  <?php
 		  }
 		   ?>
