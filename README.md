@@ -1,6 +1,10 @@
 # Coin Blockchain PHP
 Creative Commons Uznanie autorstwa-Użycie niekomercyjne 3.0 Polska.
 
+
+cc logo Uznanie autorstwa-Użycie niekomercyjne 3.0 Polska (CC BY-NC 3.0 PL)
+
+
 Creative Commons Attribution-NonCommercial 3.0 Poland License.
 
 Projekt jest w fazie rozwojowej, wczesna alfa i może zawierać błędy. 
