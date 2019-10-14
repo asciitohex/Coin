@@ -33,8 +33,7 @@ session_start();
  <div id="top">
        <h1>Wyślij Img </h1>
 	    <p><?php
-	            // $coin  = new BlockChain();
-          // echo "<br>Balans dla Coin to: <span style='color:#000000;'>".$coin->qubitCoinAll()." </span> Coin<br>";
+	           
 		     echo "<br>Balans Acount to: <span style='color:#000000;'>".$wallet->balanceWallet($walletAdrres)." </span> Coin<br>";
 	   ?></p>
    </div>
@@ -48,7 +47,7 @@ session_start();
 		   <li><a href="sendCoin.php">Send Wyślij Kwotę</a></li>
 		   <li><a href="answerCoin.php">Answer Odbierz Kwotę</a></li>
 		   <li><a href="answer-Img.php">Answer Odbierz Img</a></li>
-		   <li><a href="logoutQubit.php">Logout</a></li>
+		   <li><a href="logoutCoin.php">Logout</a></li>
 		</ul>
 	  </nav>
   </div>
