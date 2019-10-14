@@ -33,7 +33,7 @@ session_start();
    <div>
       <nav>
 	    <ul id="menu">
-		   <li><a href="loginQubit.php">LogIn</a></li>
+		   <li><a href="loginCoin.php">LogIn</a></li>
 		</ul>
 	  </nav>
   </div>
