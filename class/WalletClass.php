@@ -1,4 +1,8 @@
 <?php
+
+//*** License ***//
+//*** Attribution-NonCommercial 3.0 Poland (CC BY-NC 3.0 PL) ***//
+
 include_once ("./class/DataBaseClass.php");
 include_once ("./class/AlgoHashClass.php");
 include_once ("./class/MCryptClass.php");
